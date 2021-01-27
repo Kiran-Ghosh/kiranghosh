@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+   margin: 0%;
+   color: #40514E;
+   font-size: 20px;
+}
+
+
+h1{
+    margin: 0%;
+    color: rgb(16, 239, 247);
+}
+h2{
+    color: rgb(20, 228, 158);
+}
+h4{
+    color: #111d5e;
+   
+}
+
+.top-container{
+    font-size: 25px;
+    background-color: darkgrey;
+    padding-top: 150px;
+   position: relative;
+   font-family: 'Dancing Script', cursive;
+   font-weight: normal;
+}
+.middle-container{
+    padding-top: 100px;
+    background-color: rgb(147, 173, 147);
+    height: 500px;
+    font-size: 1.3rem;
+
+}
+.bottom-container{
+    background-color: darkgrey;
+   line-height: 2;
+   text-align: center;
+   padding-bottom: 50px;
+}
+.footercontainer{
+    height: 100px;
+    background-color: rgba(241, 243, 244, 1);
+    padding-top: 70px;
+    color: rgb(9, 10, 10);
+}
+.ab{
+    color: blue;
+}
+.bottom-cloud{
+    position: absolute;
+
+}
+ .top-cloud{
+    padding-top: 30px;
+    position:absolute;
+    top: 50px;
+    left: 60%;
+    
+}
+.mountain{
+    padding-top: 50px;
+}
+.kiranimage{
+    border-radius: 100%;
+    width: 150px;
+}
+.one{
+    font-family: 'Redressed', cursive;
+
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    padding-top: 20px;
+}
+.skillimage{
+    border-radius: 100%;
+    width: 120px;
+    margin-right: 20px;
+}
+.dmimage{
+    width: 150px;
+    float: left;
+    padding-top: 30px;
+}
+.textbottom{
+    margin: auto 25% auto 25%;
+    text-align: left;
+}
+
+
+.linkedin{
+    font-size: 20px;
+    color: teal;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: turquoise;
+}
