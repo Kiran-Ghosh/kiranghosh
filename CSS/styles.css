@@ -37,6 +37,9 @@ h4{
 .education-container{
     background-color: darkgrey;
 }
+.skill-container{
+    padding-bottom: 50px;
+}
 .bottom-container{
     background-color: rgb(147, 173, 147);
    text-align: center;
