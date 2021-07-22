@@ -262,3 +262,84 @@ section:nth-child(2n+1)
 .mb-light-purple {
     background-color: #93738c;
 } 
+
+
+
+.skill-display
+{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.mb75px{
+    margin-bottom: 75px;
+}
+.skill-progress
+{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: rgb(209, 197, 197);
+    border-radius: 0.8rem;
+    border: 2px solid black;
+    margin-bottom: 12px;
+}
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.mb-blue{
+    background-color: #2875a4;
+}
+.mb-blue1{
+    background-color: #106ca5;
+}
+.mb-blue2{
+    background-color: #076aa7;
+}
+.mb-orange
+{
+    background-color: #ff8000;
+}
+.mb-css
+{
+    background-color: #862d59;
+}
+.mb-js
+{
+    background-color: #33cc33;
+}
+.mb-dsa
+{
+    background-color: #0e3f35;
+}
+.skill-name span
+{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+/* percentage classes*/
+.eighty-five-percent
+{
+    width: 85%;
+    height: inherit;
+}
+.eighty-percent{
+    width: 80%;
+    height: inherit;
+}
+.fourty-five-percent{
+    width: 45%;
+    height: inherit;
+}
+.seventy-percent
+{
+    width: 70%;
+    height: inherit;
+}
+.fourty-five-percent{
+    width: 45%;
+    height: inherit;
+}
