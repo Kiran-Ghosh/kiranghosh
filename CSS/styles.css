@@ -39,7 +39,6 @@ h4{
 }
 .bottom-container{
     background-color: rgb(147, 173, 147);
-   line-height: 2;
    text-align: center;
    padding-bottom: 0px;  <!-- While add skill section make sure padding is 50px -->
 }
@@ -122,10 +121,7 @@ section:nth-child(2n)
 {
     background-color: #9e9b9b29;
 }
-section:nth-child(2n+1)
-{
-     background-color: darkgray;   /*changing color hear */
-}
+
 .section-heading
 {
     width: auto;
