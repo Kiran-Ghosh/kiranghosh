@@ -40,7 +40,7 @@ h4{
     background-color: rgb(147, 173, 147);
    line-height: 2;
    text-align: center;
-   padding-bottom: 50px;
+   padding-bottom: 0px;  <!-- While add skill section make sure padding is 50px -->
 }
 .footercontainer{
     height: 100px;
