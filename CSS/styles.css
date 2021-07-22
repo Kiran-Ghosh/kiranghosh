@@ -33,6 +33,9 @@ h4{
     font-size: 1.3rem;
 
 }
+.education-container{
+    background-color: darkgrey;
+}
 .bottom-container{
     background-color: darkgrey;
    line-height: 2;
@@ -102,3 +105,158 @@ h4{
 a:hover{
     color: turquoise;
 }
+
+
+/* ------------section -----------*/
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n)
+{
+    background-color: #9e9b9b29;
+}
+section:nth-child(2n+1)
+{
+     background-color: darkgray;   /*changing color hear */
+}
+.section-heading
+{
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+}
+
+/*-----eduction-------*/
+.timeline{
+    position: relative;
+    width: 75%;
+    padding-bottom: 10px;
+}
+
+.timeline-box{
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.8%;
+}
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+.timeline-container {
+    padding: 8px;
+}
+.degree {
+    font-size: 1.4rem;
+}
+.m0 {
+    margin: 0;
+}
+.institute-name{
+    margin: 0px 0 0;
+    color: #40514E;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.course-duration{
+    color: darkslategray;
+    font-weight: 100;
+    font-size: 1rem;
+}
+.description {
+    font-size: 14px;
+    padding: 2px;
+    color: #40514E;
+    line-height: 20px;
+}
+/*---------timeline----------*/
+ #timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed #0096fa6b;
+    height: 66%;
+    color: #433E3F;
+}
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2857a4;
+}
+.timeline-logo {
+    position: absolute;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 0.8rem;
+}
+
+.timeline-logo > img {
+    width: 100%;
+}
+
+/* Common Text Align Classes */
+
+.text-right{
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+} 
+
+/* setting background-color */
+
+ .m-blue {
+    color: #2857a4;
+}
+
+.mb-blue {
+    background-color: #2857a4;
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #93738c;
+} 
